@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/reg"/>
+            <EditText
+                android:id="@+id/FirstReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите ваше имя:"/>
+
+            <EditText
+                android:id="@+id/LastReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите вашу фамилию:"/>
+
+            <EditText
+                android:id="@+id/loginReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите ваш логин для регистрации:"/>
+            <EditText
+                android:id="@+id/passwordReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:hint="Введите ваш пароль для регистрации:"/>
+            <EditText
+                android:id="@+id/passwordtestReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:hint="Подтвердите ваш пароль для регистрации:"/>
+            <EditText
+                android:id="@+id/CallReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите код доступа, для прекрепления к учителю"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/status"
+                android:gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/RegButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:clickable="false"
+                android:enabled="true"
+                android:onClick="OnClickRegistration"
+                android:text="Зарегистрироваться"
+                android:textColor="@color/colorPrimary"
+                android:textSize="3mm" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

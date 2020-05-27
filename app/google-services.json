@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "476278673576",
+    "firebase_url": "https://onlinemessanger-9a74e.firebaseio.com",
+    "project_id": "onlinemessanger-9a74e",
+    "storage_bucket": "onlinemessanger-9a74e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476278673576:android:07501f980daa2b187ff29d",
+        "android_client_info": {
+          "package_name": "smerx.gamessmerx.onlinemessanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476278673576-fk0fqq3f8t09m4h02ud6hka4944q0lki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "smerx.gamessmerx.onlinemessanger",
+            "certificate_hash": "eb1ca1bdaba3ba3a27ec1ba34e47429c7e212b04"
+          }
+        },
+        {
+          "client_id": "476278673576-467n12hbk95t1gvgvp6tgso3mvvva8jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhgwCMuyYFZ1MQu6YcZiQsWNQz1FiDoAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476278673576-467n12hbk95t1gvgvp6tgso3mvvva8jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

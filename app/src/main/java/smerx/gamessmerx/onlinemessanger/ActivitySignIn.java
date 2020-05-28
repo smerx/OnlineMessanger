@@ -96,4 +96,8 @@ try {
     }
 
 
+    public void goEge(View view) {
+        Intent intent = new Intent(ActivitySignIn.this, EgeForm.class);
+        startActivity(intent);
+    }
 }

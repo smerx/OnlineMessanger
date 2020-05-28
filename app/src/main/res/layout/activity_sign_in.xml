@@ -54,6 +54,8 @@
                     android:src="@drawable/black2"></ImageView>
 
                 <Button
+                    android:id="@+id/fff"
+                    android:onClick="goEge"
                     android:layout_width="wrap_content"
                     android:layout_height="70mm"
                     android:background="@drawable/ege"

@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     TextView statusText,statustogo;
     EditText login,password;
     RadioButton studentRB,teacherRB;
-    String UserNow="";
+    String UserNow="NO";
     SharedPreferences mSettings; // fail for save
     ArrayList<String> base= new ArrayList<>();
     @Override

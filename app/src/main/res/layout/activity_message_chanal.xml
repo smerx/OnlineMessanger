@@ -39,7 +39,10 @@
             android:layout_height="match_parent"
             android:layout_marginBottom="60dp"
             android:scrollbars="none"
+            android:background="@drawable/doskaa"
             android:stackFromBottom="true"
+
+            android:outlineSpotShadowColor="@color/colorButtonBlue"
             android:transcriptMode="alwaysScroll" >
         </ListView>
 

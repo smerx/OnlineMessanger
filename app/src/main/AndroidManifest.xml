@@ -11,9 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".EgeForm"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" ></activity>
         <activity
             android:name=".MessageChanal"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".GoodReg" />
         <activity
             android:name=".LogUpActivityStudent"
